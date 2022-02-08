@@ -1,6 +1,7 @@
 $(function () {
     // toggle show cart
     $(".cart").on("click", function () {
+        console.log('kkk');
         $(".shopping-cart").toggleClass("d-none");
     });
     hideCartOnClickAway('.shopping-cart')
