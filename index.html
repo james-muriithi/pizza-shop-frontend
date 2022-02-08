@@ -48,8 +48,7 @@
                     <li class="nav-item d-none d-lg-flex cart ps-4" title="cart">
                         <span>
                             <img src="./images/shopping_cart.png" alt="cart">
-                            <div
-                                class="cart-counter bg-primary rounded-circle d-flex pt-1">
+                            <div class="cart-counter bg-primary rounded-circle d-flex pt-1">
                                 0
                             </div>
                         </span>
@@ -58,16 +57,44 @@
             </div>
         </div>
     </nav>
+    <div class="shopping-cart shadow d-none">
+        <div class="shopping-cart-header d-flex">
+
+            <span class="cart d-flex">
+                <span class="my-auto">
+                    <img src="./images/shopping_cart.png" alt="cart">
+                    <div class="cart-counter">
+                        2
+                    </div>
+                </span>
+            </span>
+
+            <div class="shopping-cart-total ms-auto">
+                <span class="lighter-text">Total:</span>
+                <span class="main-color-text">Ksh. <span class="cart-total">0</span></span>
+            </div>
+        </div>
+        <!--end shopping-cart-header -->
+
+        <ul class="shopping-cart-items ps-0">
+            <div class="d-flex justify-content-center">
+                <img src="./images/add-to-cart.png" alt="empty cart" class="img-fluid" />
+            </div>
+        </ul>
+
+        <button class="btn btn-checkout w-100" data-bs-target="#delivery-modal" data-bs-toggle="modal"
+            disabled>Checkout</button>
+    </div>
     <!-- end navbar -->
 
-     <!-- body content here -->
+    <!-- body content here -->
     <section class="body py-5 px-1 px-lg-3">
 
     </section>
-      <!-- end content here -->
+    <!-- end content here -->
 
-       <!-- footer -->
-       <footer class="py-4 px-3">
+    <!-- footer -->
+    <footer class="py-4 px-3">
         <div class="mx-0 row align-items-center">
             <div class="col-4">
                 <a class="navbar-brand" href="/">
@@ -79,7 +106,7 @@
             </span>
         </div>
     </footer>
-        <!-- end footer -->
+    <!-- end footer -->
 
     <!-- jquery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
