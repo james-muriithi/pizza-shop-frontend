@@ -1,0 +1,10 @@
+
+img {width: 100%;border-top-left-radius: 20px;border-top-right-radius: 20px;}
+
+.show {border-radius: 20px !important;border: 1px solid #ddd;margin: auto;width: 98%;}
+
+h1 {font-weight: bold;}
+
+h2,p {font-size: 22px;}
+
+button {width: 80%;}
