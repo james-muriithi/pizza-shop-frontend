@@ -47,6 +47,11 @@ footer .navbar-brand img {
   height: 55px;
 }
 
+img.summary-pizza {
+  height: 90px;
+  border-radius: 0.8rem;
+}
+
 /* Navbar */
 .cart-tyles, .cart {
   display: flex;
